@@ -1,0 +1,13 @@
+.bdep/
+
+# Local default options files.
+#
+.build2/local/
+
+# build dirs by default
+/build-*/
+
+# install dir by default
+/install/
+
+

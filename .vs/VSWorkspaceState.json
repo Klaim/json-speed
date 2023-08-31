@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\install",
+    "\\install\\msvc-debug",
+    "\\install\\msvc-debug\\bin",
+    "\\install\\msvc-release"
+  ],
+  "SelectedNode": "\\install\\msvc-debug\\bin\\readjson-nlohmann.exe",
+  "PreviewInSolutionExplorer": false
+}

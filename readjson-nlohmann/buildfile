@@ -1,0 +1,8 @@
+libs =
+import libs += nlohmann-json%lib{json}
+
+./: exe{readjson-nlohmann} doc{README.md} manifest
+
+exe{readjson-nlohmann}: {hxx ixx txx cxx}{*} $libs
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"
