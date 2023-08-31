@@ -1,0 +1,9 @@
+
+
+: basics
+ln -s $src_base/twitter.json ./ ;
+$* twitter.json  >>EOO == 0
+100 results.
+EOO
+
+

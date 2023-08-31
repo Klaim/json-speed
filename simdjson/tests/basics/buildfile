@@ -1,0 +1,4 @@
+import libs = simdjson%lib{simdjson}
+
+exe{driver}: {hxx ixx txx cxx}{**} $libs testscript file{twitter.json}
+

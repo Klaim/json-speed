@@ -15,3 +15,11 @@
 #
 #*.png binary
 repodata.json filter=lfs diff=lfs merge=lfs -text
+
+
+# see https://build2.org/article/symlinks.xhtml
+simdjson/include/simdjson symlink=dir
+simdjson/src/simdjson symlink=dir
+
+
+
