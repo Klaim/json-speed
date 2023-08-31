@@ -1,0 +1,6 @@
+project = readjson-simdjson
+
+using version
+using config
+using install
+using dist

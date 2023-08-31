@@ -1,0 +1,8 @@
+libs =
+import libs += simdjson%lib{simdjson}
+
+./: exe{readjson-simdjson} doc{README.md} manifest
+
+exe{readjson-simdjson}: {hxx ixx txx cxx}{*} $libs
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"

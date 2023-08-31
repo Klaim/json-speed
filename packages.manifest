@@ -4,3 +4,6 @@ location: readjson-nlohmann/
 
 :
 location: simdjson/
+
+:
+location: readjson-simdjson/
