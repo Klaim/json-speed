@@ -7,3 +7,6 @@ location: simdjson/
 
 :
 location: readjson-simdjson/
+
+:
+location: readjson-boost/

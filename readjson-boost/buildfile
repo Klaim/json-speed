@@ -1,0 +1,8 @@
+libs =
+import libs += libboost-json%lib{boost_json}
+
+./: exe{readjson-boost} doc{README.md} manifest
+
+exe{readjson-boost}: {hxx ixx txx cxx}{*} $libs
+
+cxx.poptions =+ "-I$out_root" "-I$src_root"

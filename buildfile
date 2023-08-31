@@ -47,6 +47,11 @@ workspace{install} :
   b install: $msvc_debug_out/readjson-simdjson/
   b install: $clang_release_out/readjson-simdjson/
   b install: $clang_debug_out/readjson-simdjson/
+
+  b install: $msvc_release_out/readjson-boost/
+  b install: $msvc_debug_out/readjson-boost/
+  b install: $clang_release_out/readjson-boost/
+  b install: $clang_debug_out/readjson-boost/
 }}
 
 workspace{clear} :
